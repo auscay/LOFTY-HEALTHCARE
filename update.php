@@ -81,7 +81,7 @@ if (isset($_SESSION["userid"]) == false) {
             <div class="names-section">
                 <div class="form-tip">
                     <label for="user-name">User Name:</label>
-                    <input type="text" id="user-name" name="user-name" value=<?php echo $_SESSION["username"];?> required>
+                    <input type="text" id="user-name" name="user-name" value=<?php echo $_SESSION["username"];?> readonly>
                 </div>
             </div>
             <div class="names-section">
